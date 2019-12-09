@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8178F2E7239DE8FC009292A9 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178F2E6239DE8FC009292A9 /* ApplicationCoordinator.swift */; };
+		8178F2E9239DF0A2009292A9 /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178F2E8239DF0A2009292A9 /* ContentCoordinator.swift */; };
 		8190193B239D925E00CEBF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190193A239D925E00CEBF20 /* AppDelegate.swift */; };
 		8190193D239D925E00CEBF20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190193C239D925E00CEBF20 /* SceneDelegate.swift */; };
 		8190193F239D925E00CEBF20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190193E239D925E00CEBF20 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8178F2E6239DE8FC009292A9 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		8178F2E8239DF0A2009292A9 /* ContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
 		81901937239D925E00CEBF20 /* Experiments With SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Experiments With SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190193A239D925E00CEBF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8190193C239D925E00CEBF20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8178F2E3239DE8D7009292A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8178F2E4239DE8E2009292A9 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				8178F2E6239DE8FC009292A9 /* ApplicationCoordinator.swift */,
+				8178F2E8239DF0A2009292A9 /* ContentCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		8190192E239D925E00CEBF20 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +119,8 @@
 		81901939239D925E00CEBF20 /* Experiments With SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8178F2E3239DE8D7009292A9 /* Core */,
+				8178F2E4239DE8E2009292A9 /* Coordinators */,
 				8190193A239D925E00CEBF20 /* AppDelegate.swift */,
 				8190193C239D925E00CEBF20 /* SceneDelegate.swift */,
 				8190193E239D925E00CEBF20 /* ContentView.swift */,
@@ -269,7 +291,9 @@
 			files = (
 				8190193B239D925E00CEBF20 /* AppDelegate.swift in Sources */,
 				8190193D239D925E00CEBF20 /* SceneDelegate.swift in Sources */,
+				8178F2E9239DF0A2009292A9 /* ContentCoordinator.swift in Sources */,
 				8190193F239D925E00CEBF20 /* ContentView.swift in Sources */,
+				8178F2E7239DE8FC009292A9 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
